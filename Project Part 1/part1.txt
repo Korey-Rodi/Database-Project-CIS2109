@@ -1,0 +1,15 @@
+Instructions:
+
+A small company hires you to create a database for them. They have just started their business and so far they store their data in delimited files, which they give you full access to. They do expect to grow fairly fast and they require an oracle database.
+
+Deliverables: At the end of this step you need to provide the “business plan” of the company that hires you. This means that you need to submit a document with: 
+
+1. a brief description of the company purpose, expected size, products, goals
+
+2. a short list of business rules 
+
+3. the list of every day business aspects that your database needs to handle (examples: employee scheduling, orders, supplies, medical procedures, appointments, payments, shipments etc).
+
+Before you start writing the proposal, make sure that you have decided on a topic, AND have it approved by me. You can use ChatGPT or a similar tool to help you with the business plan, but be mindful that your submitted document needs to include the parts of the business that you will actually model (part 3 of the list above is important). At the end of the project you will be asked to resubmit this proposal with clearly marked items that you did and did not complete. 
+
+ 

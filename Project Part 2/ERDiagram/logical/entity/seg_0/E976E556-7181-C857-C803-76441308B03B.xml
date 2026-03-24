@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E976E556-7181-C857-C803-76441308B03B" name="Grade">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:16:49 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Grade_ID" id="634D274B-E9D7-E709-BDC0-166E0387A67B">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:26:27 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Semester" id="A41080D4-EA30-875A-C7C3-4AA1ABB1E684">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:26:46 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GPA" id="5C7A6FF3-9550-6E7B-1020-BD0215B73903">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:26:55 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Student_ID" id="7F6412C9-FAAB-FD9D-559F-88D71DC9AD87">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:36:16 UTC</createdTime>
+<generatorID>A397C243-EAA0-79A5-5EED-CDE2BCC49D07</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<referedAttribute>BD9871C3-DA7E-967C-868E-EA096299C519</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Class_ID" id="24666049-D9EE-6923-74A5-E2C3ECBC3E00">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:36:42 UTC</createdTime>
+<generatorID>1C650E8C-7EB2-C943-DC96-AC5F5C24E4BB</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<referedAttribute>EF350D52-DB8F-F49D-CD79-B7B312691893</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC909576-F65E-AA5A-2579-BB108C01BB0F" name="Grade PK">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:26:37 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>634D274B-E9D7-E709-BDC0-166E0387A67B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

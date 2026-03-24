@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8204B093-E4F6-5AA9-10B6-04AD23D6F553" name="Enrollment">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:16:27 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Enrollment_ID" id="ABD177C3-5566-AF82-4A56-6254AE7D7F65">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:25:02 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Semester" id="22293983-7447-3AD7-D12D-69D2D8787960">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:25:17 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Student_ID" id="984C50B1-EE0D-5E2C-3504-318C42E8556C">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:27:31 UTC</createdTime>
+<generatorID>20F3E618-0763-D009-1878-C732B5541B14</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<referedAttribute>BD9871C3-DA7E-967C-868E-EA096299C519</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Class_ID" id="47E11436-33A0-B2B6-1909-0D62750C8870">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:28:04 UTC</createdTime>
+<generatorID>5B0199D5-198B-5160-9104-E8295B8A7CB9</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<referedAttribute>EF350D52-DB8F-F49D-CD79-B7B312691893</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6BB3805D-9E73-79DD-A4A4-0F92BED84EE1" name="Enrollment PK">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:25:15 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ABD177C3-5566-AF82-4A56-6254AE7D7F65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

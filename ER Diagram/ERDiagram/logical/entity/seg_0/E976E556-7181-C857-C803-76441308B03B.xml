@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Grade" id="5C7A6FF3-9550-6E7B-1020-BD0215B73903">
+<Attribute name="GPA" id="5C7A6FF3-9550-6E7B-1020-BD0215B73903">
 <createdBy>koreyrodi</createdBy>
 <createdTime>2026-03-24 22:26:55 UTC</createdTime>
 <ownerDesignName>ERDiagram</ownerDesignName>

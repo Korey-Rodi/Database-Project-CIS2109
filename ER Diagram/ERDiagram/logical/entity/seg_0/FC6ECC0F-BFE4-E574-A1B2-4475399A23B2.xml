@@ -53,6 +53,45 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Start_Time" id="8A68EF45-D7E4-32AE-DC85-27FBF88CEF4A">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:42:08 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Day_Of_Week" id="EB75D2F1-CAB5-35A0-153C-86D07FCB577B">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:46:00 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End_Time" id="973ED892-421F-FA42-89E3-B5A9F6F99644">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-24 22:42:25 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Room_ID" id="94050D2E-B54C-FC64-A9DA-DBA33D2B2628">
 <createdBy>koreyrodi</createdBy>
 <createdTime>2026-03-24 22:32:09 UTC</createdTime>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C3022EF-EE4A-F6E2-2348-038716E44E50" name="Class">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<generatorID>FC6ECC0F-BFE4-E574-A1B2-4475399A23B2</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Class_ID" id="C21B1FCD-1E84-FB1D-E590-8F264E90E8FA">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<generatorID>EF350D52-DB8F-F49D-CD79-B7B312691893</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Class_Name" id="62E4C9BE-C867-BB1A-DB55-61AF34738AE8">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<generatorID>619FB6B6-17E6-8047-6457-6CD579FF7D30</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacity" id="CF5BE492-D9A9-A898-41AD-A3E5632693F9">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<generatorID>B1E1E134-31F5-7FFA-8587-565A26F82EE6</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_Time" id="B202584B-D6EF-1843-C43A-2D1EFE21CF8D">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<generatorID>8A68EF45-D7E4-32AE-DC85-27FBF88CEF4A</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Day_Of_Week" id="6D43515A-01D9-65AC-1655-73909E52A914">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<generatorID>EB75D2F1-CAB5-35A0-153C-86D07FCB577B</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_Time" id="3531E67A-72F8-E3A8-B9A5-1C54E500B265">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<generatorID>973ED892-421F-FA42-89E3-B5A9F6F99644</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Classroom_Room_ID" id="6284B7D7-E000-07FD-1623-543D40E86D15">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<generatorID>94050D2E-B54C-FC64-A9DA-DBA33D2B2628</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C37B7A6-78DB-5AEE-43A4-554913F47860" referredColumn="F717DFF1-B864-E8C6-E743-7686232B7824"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9DB58A8-7951-532F-C5CA-D7111229FD69" name="Class_PK">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<generatorID>333469D0-1238-3235-771A-9DD2F91A04AD</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C21B1FCD-1E84-FB1D-E590-8F264E90E8FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23A8790E-A96C-9D24-3692-EA3E0D9C3975" name="Class_Classroom_FK">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<generatorID>DE702328-4073-DE41-CD92-0CE840B869A6</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6284B7D7-E000-07FD-1623-543D40E86D15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

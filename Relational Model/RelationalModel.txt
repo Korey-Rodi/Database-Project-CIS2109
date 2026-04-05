@@ -1,8 +1,8 @@
 Student (Student_ID [PK], First_Name, Last_Name, Date_Of_Birth, Grade_Level, Email, Phone, Faculty_ID [FK])
 
-Faculty (Faculty_ID [PK], First_Name, Last_Name, Email, Phone, Role, Class_ID [FK])
+Faculty (Faculty_ID [PK], First_Name, Last_Name, Email, Phone, Role)
 
-Class (Class_ID [PK], Class_Name, Capacity, Start_Time, End_Time, Day_Of_Week, Room_ID [FK])
+Class (Class_ID [PK], Class_Name, Capacity, Start_Time, End_Time, Day_Of_Week, Room_ID [FK], Faculty_ID [FK])
 
 Enrollment (Enrollment_ID [PK], Semester, Student_ID [FK], Class_ID [FK])
 

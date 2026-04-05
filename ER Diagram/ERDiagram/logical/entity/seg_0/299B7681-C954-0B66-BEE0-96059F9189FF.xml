@@ -92,21 +92,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Class_ID" id="A0DDB6C5-6442-34A3-ECBC-CE17CF01FC27">
-<createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-24 22:28:42 UTC</createdTime>
-<generatorID>8E66E189-9E75-1A5F-1824-8B590E80F588</generatorID>
-<ownerDesignName>ERDiagram</ownerDesignName>
-<engineerTo>
-<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>EF350D52-DB8F-F49D-CD79-B7B312691893</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="821E89D7-8C79-9DC5-2F93-5DA1A69AE3A3" name="Faculty PK">

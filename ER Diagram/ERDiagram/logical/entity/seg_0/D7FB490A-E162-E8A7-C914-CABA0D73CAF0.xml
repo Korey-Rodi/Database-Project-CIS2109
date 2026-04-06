@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC6ECC0F-BFE4-E574-A1B2-4475399A23B2" name="Class">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7FB490A-E162-E8A7-C914-CABA0D73CAF0" name="Course">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-24 22:16:14 UTC</createdTime>
+<createdTime>2026-04-06 17:53:03 UTC</createdTime>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <engineerTo>
 <item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Class_ID" id="EF350D52-DB8F-F49D-CD79-B7B312691893">
+<Attribute name="Course_ID" id="3B51D98D-28FF-5446-A28F-C78FF0B22DE1">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-24 22:21:15 UTC</createdTime>
+<createdTime>2026-04-06 17:55:48 UTC</createdTime>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <engineerTo>
 <item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Class_Name" id="619FB6B6-17E6-8047-6457-6CD579FF7D30">
+<Attribute name="Course_Name" id="D883FB9F-E2D3-F13E-932B-70B8F4010F85">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-24 22:21:27 UTC</createdTime>
+<createdTime>2026-04-06 17:56:24 UTC</createdTime>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <engineerTo>
 <item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
@@ -40,9 +40,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Capacity" id="B1E1E134-31F5-7FFA-8587-565A26F82EE6">
+<Attribute name="Start_Time" id="B3023815-BA46-45E3-CFBC-D151C48E15F5">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-24 22:21:37 UTC</createdTime>
+<createdTime>2026-04-06 17:56:35 UTC</createdTime>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <engineerTo>
 <item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
@@ -50,49 +50,47 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Room_ID" id="94050D2E-B54C-FC64-A9DA-DBA33D2B2628">
+<Attribute name="End_Time" id="2886DD79-F7B3-D312-1B40-77EF0FC2F489">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-24 22:32:09 UTC</createdTime>
-<generatorID>DE702328-4073-DE41-CD92-0CE840B869A6</generatorID>
+<createdTime>2026-04-06 17:56:46 UTC</createdTime>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <engineerTo>
 <item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
 </engineerTo>
-<referedAttribute>917CCE1E-0016-2FA1-1D9F-E9EA181E2566</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Course_ID" id="E715549B-6A36-3D49-5FA4-5C0FB32C1E9D">
+<Attribute name="Day_Of_Week" id="FC3A568A-99C0-E950-65A1-711F51E22015">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-06 17:57:44 UTC</createdTime>
-<generatorID>A7B16FA3-AE7C-58DA-6E97-E375818C1E53</generatorID>
+<createdTime>2026-04-06 17:57:02 UTC</createdTime>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <engineerTo>
 <item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
 </engineerTo>
-<referedAttribute>3B51D98D-28FF-5446-A28F-C78FF0B22DE1</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="333469D0-1238-3235-771A-9DD2F91A04AD" name="Class PK">
+<identifier id="1AD02897-91DA-635A-82E1-4C737165ECE9" name="Course PK">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-24 22:21:25 UTC</createdTime>
+<createdTime>2026-04-06 17:55:59 UTC</createdTime>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <engineerTo>
 <item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>EF350D52-DB8F-F49D-CD79-B7B312691893</attributeRef>
+<attributeRef>3B51D98D-28FF-5446-A28F-C78FF0B22DE1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

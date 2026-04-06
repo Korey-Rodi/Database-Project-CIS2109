@@ -119,6 +119,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Schedule_ID" id="FEBA0E25-5429-7F44-3A0F-BF8F838465DE">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-06 19:13:43 UTC</createdTime>
+<generatorID>0A37C666-786A-5241-FD41-B0C7085C92C6</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<referedAttribute>AF5AC004-F0BC-87FE-3DA1-2481FE4E16E5</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9CBB5731-9FEA-A903-7BB6-076EB2382A0C" name="Student PK">

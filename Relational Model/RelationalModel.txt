@@ -13,3 +13,7 @@ Grade (Grade_ID [PK], Semester, GPA, Student_ID [FK], Class_ID [FK])
 Classroom (Room_ID [PK], Room_Number, Capacity, Building_ID [FK])
 
 Building (Building_ID [PK], Building_Name)
+
+Schedule ()
+
+Course ()

@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Semester" id="79DA6F86-085E-896E-4E34-822699700071">
+<Column name="Academic_Year" id="79DA6F86-085E-896E-4E34-822699700071">
 <createdBy>koreyrodi</createdBy>
 <createdTime>2026-03-30 00:12:46 UTC</createdTime>
 <generatorID>A41080D4-EA30-875A-C7C3-4AA1ABB1E684</generatorID>

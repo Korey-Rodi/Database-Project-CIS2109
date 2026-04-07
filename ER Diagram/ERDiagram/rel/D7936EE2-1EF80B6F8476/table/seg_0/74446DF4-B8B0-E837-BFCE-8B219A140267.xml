@@ -106,6 +106,21 @@
 <colAssociation fkAssociation="6EF2D24F-06AF-AEA3-8D04-652D38E4C47C" referredColumn="D71D2B9F-9832-F84E-635C-229C2AAD7351"/>
 </associations>
 </Column>
+<Column name="Schedule_Schedule_ID" id="244976C3-7E68-F163-37A1-DC50A1B4A50A">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-07 01:19:38 UTC</createdTime>
+<generatorID>FEBA0E25-5429-7F44-3A0F-BF8F838465DE</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6725BD9B-584A-3911-4204-8B6D2A0CABF0" referredColumn="9697DAC4-6FAD-19EC-3487-1ADF7D204A96"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="755CC7DB-4281-9C82-9C5B-CAC14F2EC826" name="Student_PK">
@@ -120,6 +135,17 @@
 <colUsage columnID="F4D975DC-B641-1890-5187-CA6ABEDF4A70"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="86555131-8577-04E8-93DA-CA9B213D6D48" name="Student__IDX">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-07 01:19:38 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0A37C666-786A-5241-FD41-B0C7085C92C6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="244976C3-7E68-F163-37A1-DC50A1B4A50A"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="6EFACE65-43D5-7208-D8A9-EA60B5001DAF" name="Student_Faculty_FK">
 <createdBy>koreyrodi</createdBy>
 <createdTime>2026-03-30 00:12:46 UTC</createdTime>
@@ -129,6 +155,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E689F75F-1FCF-39C2-21FD-2D90F5D103FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CF5F1B9-9E90-2370-1486-BB0E44A3E731" name="Student_Schedule_FK">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-07 01:19:38 UTC</createdTime>
+<generatorID>0A37C666-786A-5241-FD41-B0C7085C92C6</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="244976C3-7E68-F163-37A1-DC50A1B4A50A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

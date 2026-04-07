@@ -94,6 +94,21 @@
 <colAssociation fkAssociation="2C37B7A6-78DB-5AEE-43A4-554913F47860" referredColumn="F717DFF1-B864-E8C6-E743-7686232B7824"/>
 </associations>
 </Column>
+<Column name="Course_Course_ID" id="A7C7F977-6B1B-5D15-97F4-A6F9018B6550">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-07 01:19:38 UTC</createdTime>
+<generatorID>E715549B-6A36-3D49-5FA4-5C0FB32C1E9D</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A179BF3F-6B56-3F6C-E101-98F9577B7A8A" referredColumn="B4E27004-0CC1-5F60-DCCA-7DE9C1B668E6"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B9DB58A8-7951-532F-C5CA-D7111229FD69" name="Class_PK">
@@ -117,6 +132,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6284B7D7-E000-07FD-1623-543D40E86D15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2754D17-124D-D903-02B6-15ACEEFC30E5" name="Class_Course_FK">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-07 01:19:38 UTC</createdTime>
+<generatorID>A7B16FA3-AE7C-58DA-6E97-E375818C1E53</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7C7F977-6B1B-5D15-97F4-A6F9018B6550"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

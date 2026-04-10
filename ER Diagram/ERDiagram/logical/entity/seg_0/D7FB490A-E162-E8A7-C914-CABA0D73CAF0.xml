@@ -40,45 +40,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Start_Time" id="B3023815-BA46-45E3-CFBC-D151C48E15F5">
-<createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-06 17:56:35 UTC</createdTime>
-<ownerDesignName>ERDiagram</ownerDesignName>
-<engineerTo>
-<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="End_Time" id="2886DD79-F7B3-D312-1B40-77EF0FC2F489">
-<createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-06 17:56:46 UTC</createdTime>
-<ownerDesignName>ERDiagram</ownerDesignName>
-<engineerTo>
-<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Day_Of_Week" id="FC3A568A-99C0-E950-65A1-711F51E22015">
-<createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-06 17:57:02 UTC</createdTime>
-<ownerDesignName>ERDiagram</ownerDesignName>
-<engineerTo>
-<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="1AD02897-91DA-635A-82E1-4C737165ECE9" name="Course PK">

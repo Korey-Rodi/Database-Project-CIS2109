@@ -14,6 +14,8 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<discriminatorAttributeID>E36C1009-BF55-4967-D2E5-DC5A2B90ED2C</discriminatorAttributeID>
+<completeSubtypes>true</completeSubtypes>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Faculty_ID" id="66E37464-4EC4-F0B2-1B4C-339B18168F72">
 <createdBy>koreyrodi</createdBy>

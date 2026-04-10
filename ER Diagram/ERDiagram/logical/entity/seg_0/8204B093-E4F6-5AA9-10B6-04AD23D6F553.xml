@@ -27,19 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Semester" id="22293983-7447-3AD7-D12D-69D2D8787960">
-<createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-24 22:25:17 UTC</createdTime>
-<ownerDesignName>ERDiagram</ownerDesignName>
-<engineerTo>
-<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Student_ID" id="984C50B1-EE0D-5E2C-3504-318C42E8556C">
 <createdBy>koreyrodi</createdBy>
 <createdTime>2026-03-24 22:27:31 UTC</createdTime>
@@ -66,6 +53,19 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grade" id="D329CADA-8792-F32A-F435-54F231AC8FE2">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 18:07:57 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

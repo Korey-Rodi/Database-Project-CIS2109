@@ -117,9 +117,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6725BD9B-584A-3911-4204-8B6D2A0CABF0" referredColumn="9697DAC4-6FAD-19EC-3487-1ADF7D204A96"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -155,17 +152,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E689F75F-1FCF-39C2-21FD-2D90F5D103FD"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="0CF5F1B9-9E90-2370-1486-BB0E44A3E731" name="Student_Schedule_FK">
-<createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-07 01:19:38 UTC</createdTime>
-<generatorID>0A37C666-786A-5241-FD41-B0C7085C92C6</generatorID>
-<ownerDesignName>ERDiagram</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="244976C3-7E68-F163-37A1-DC50A1B4A50A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

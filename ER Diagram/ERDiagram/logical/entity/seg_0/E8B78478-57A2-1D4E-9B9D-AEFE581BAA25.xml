@@ -41,15 +41,15 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Course_ID" id="A81B6C73-4636-FE29-D1A6-6B9610A2F465">
+<Attribute name="Class_ID" id="A81BB09C-EF65-B70E-2794-E5B993321B29">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-06 19:14:16 UTC</createdTime>
-<generatorID>FDA2BDDC-14EB-29CE-A387-946EECC33F80</generatorID>
+<createdTime>2026-04-10 18:04:34 UTC</createdTime>
+<generatorID>BBF94ACA-C567-87D4-A116-50D104EB0D1F</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <engineerTo>
 <item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
 </engineerTo>
-<referedAttribute>3B51D98D-28FF-5446-A28F-C78FF0B22DE1</referedAttribute>
+<referedAttribute>EF350D52-DB8F-F49D-CD79-B7B312691893</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

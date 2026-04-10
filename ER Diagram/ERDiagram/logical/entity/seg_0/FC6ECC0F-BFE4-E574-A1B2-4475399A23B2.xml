@@ -53,6 +53,45 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Start_Time" id="B9683545-EF35-51A6-745F-9FA712EA8BED">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 18:02:20 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End_Time" id="4FFD7491-B2C1-1EF4-D846-DC97DED32E80">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 18:02:33 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Day_Of_Week" id="40819BE1-67D6-719E-B6DB-ECEBED139226">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 18:02:41 UTC</createdTime>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Room_ID" id="94050D2E-B54C-FC64-A9DA-DBA33D2B2628">
 <createdBy>koreyrodi</createdBy>
 <createdTime>2026-03-24 22:32:09 UTC</createdTime>
@@ -76,6 +115,20 @@
 <item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
 </engineerTo>
 <referedAttribute>3B51D98D-28FF-5446-A28F-C78FF0B22DE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Faculty_ID" id="886EFCAA-8BBA-6F9D-B0C5-D24416438A59">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 18:18:51 UTC</createdTime>
+<generatorID>A6AC8C1A-4963-B17C-A776-C2407D89F2B7</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<engineerTo>
+<item key="D7936EE2-2892-0E12-4D78-1EF80B6F8476" value="true"/>
+</engineerTo>
+<referedAttribute>66E37464-4EC4-F0B2-1B4C-339B18168F72</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

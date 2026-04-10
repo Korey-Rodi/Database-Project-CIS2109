@@ -30,9 +30,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="515EED37-A3CA-BCF5-7C0F-5AFD1BAF1E08" referredColumn="F4D975DC-B641-1890-5187-CA6ABEDF4A70"/>
-</associations>
 </Column>
 <Column name="Course_Course_ID" id="D6B08402-D391-7020-5467-9FE865745D2B">
 <createdBy>koreyrodi</createdBy>
@@ -70,17 +67,6 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>0A37C666-786A-5241-FD41-B0C7085C92C6</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="F900EDD7-B931-F6A4-B42F-2FE609A886AE"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="7E14F223-0723-D6C8-CE82-F3FD25D3A2B8" name="Schedule_Student_FK">
-<createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-07 01:19:38 UTC</createdTime>
-<generatorID>0A37C666-786A-5241-FD41-B0C7085C92C6</generatorID>
-<ownerDesignName>ERDiagram</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F900EDD7-B931-F6A4-B42F-2FE609A886AE"/>
 </indexColumnUsage>

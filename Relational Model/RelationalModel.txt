@@ -2,18 +2,20 @@ Student (Student_ID [PK], First_Name, Last_Name, Date_Of_Birth, Grade_Level, Ema
 
 Faculty (Faculty_ID [PK], First_Name, Last_Name, Email, Phone, Role)
 
-Class (Class_ID [PK], Class_Name, Capacity, Start_Time, End_Time, Day_Of_Week, Room_ID [FK], Faculty_ID [FK])
+Advisor (Facutlty_ID [PK])
 
-Enrollment (Enrollment_ID [PK], Semester, Student_ID [FK], Class_ID [FK])
+Teacher (Faculty_ID [PK])
+
+Class (Class_ID [PK], Class_Name, Capacity, Start_Time, End_Time, Day_Of_Week, Room_ID [FK], Faculty_ID [FK], Course_ID [FK] )
+
+Enrollment (Enrollment_ID [PK], Grade, Student_ID [FK], Class_ID [FK])
 
 Attendance (Attendance_ID [PK], Date, Student_ID [FK], Class_ID [FK])
-
-Grade (Grade_ID [PK], Semester, GPA, Student_ID [FK], Class_ID [FK])
 
 Classroom (Room_ID [PK], Room_Number, Capacity, Building_ID [FK])
 
 Building (Building_ID [PK], Building_Name)
 
-Schedule ()
+Schedule (Schedule_ID [PK], Student_ID [FK], Class_ID [FK])
 
-Course ()
+Course (Course_ID [PK] , Course_Name)

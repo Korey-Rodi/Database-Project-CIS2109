@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA3014BF-ADD9-D6F6-F9F0-FB270627ADF6" name="Advisor">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 19:04:02 UTC</createdTime>
+<generatorID>7A359D19-0FAE-84EC-0A45-FD74C2DE5AEC</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Faculty_ID" id="271B6A8D-CE37-FE0A-5C9E-23F66EC50802">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 19:04:02 UTC</createdTime>
+<generatorID>66E37464-4EC4-F0B2-1B4C-339B18168F72</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1058B2ED-E56E-7A09-356D-5540B60EA32F" referredColumn="A053C917-EDC3-8775-B330-10B2D1CA38D0"/>
+</associations>
+</Column>
+<Column name="test" id="005A45FF-6F1F-9A7B-4163-408FCCA400BA">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 19:14:12 UTC</createdTime>
+<generatorID>6CD22F69-C9DA-1D22-0669-A3B7D2957B60</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="759A9123-1D45-B0CB-FEC3-5005A841AC6F" name="Advisor_PK">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 19:04:02 UTC</createdTime>
+<generatorID>821E89D7-8C79-9DC5-2F93-5DA1A69AE3A3</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="271B6A8D-CE37-FE0A-5C9E-23F66EC50802"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD6F20EF-5CFA-7A7F-4CBB-EF08914523F0" name="Advisor_Faculty_FK">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>0407CF0F-7583-FEFB-BA48-F337B4BE4617</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="271B6A8D-CE37-FE0A-5C9E-23F66EC50802"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

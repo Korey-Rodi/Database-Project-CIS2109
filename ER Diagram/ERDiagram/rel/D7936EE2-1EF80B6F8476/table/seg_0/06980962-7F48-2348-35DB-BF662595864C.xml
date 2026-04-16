@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F109E764-257E-1098-2D06-A15B8C45AE54" name="Classroom">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06980962-7F48-2348-35DB-BF662595864C" name="Classroom">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>CE407F1C-7984-F70B-F39B-49CCDE928B04</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Room_ID" id="F717DFF1-B864-E8C6-E743-7686232B7824">
+<Column name="Room_ID" id="10BB1154-504E-0635-E68F-5EB02D63600F">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>917CCE1E-0016-2FA1-1D9F-E9EA181E2566</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Room_Number" id="8CAE3CDF-FACF-267C-E17C-0806E2B4FA6C">
+<Column name="Room_Number" id="C0DADDF9-D992-DCED-F947-EEE03ADE1B02">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>14774308-250F-8A06-6F66-55E6F58267D8</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Capacity" id="9C6952C0-F6EA-6B5B-84CC-DC388C520909">
+<Column name="Capacity" id="D6366756-9A66-EC43-0B68-A99CC156C5D2">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>F8EAEB5C-311A-C45F-8E56-A4AA83FC1FA5</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -43,9 +43,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Building_Building_ID" id="87C1571B-E56F-9AA0-C194-7B6DD24DE468">
+<Column name="Building_Building_ID" id="5B900DF1-7C7C-931E-0E51-5365450491D1">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>B83403F5-EB01-0BF6-AAB5-B9267AE8B9D0</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -55,32 +55,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="42471D68-C0BD-3D73-4AC6-865C1EF57A46" referredColumn="1E22323D-DEBE-E9F6-1A6A-A950E72038B6"/>
+<colAssociation fkAssociation="F1C65FCB-5212-B3EA-66F7-6BA473C90C1A" referredColumn="D67FC2D2-AD66-4D2F-29A6-1C78D65CCA6D"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="20BA0194-C755-AC4B-F257-1FFD29CF8368" name="Classroom_PK">
+<ind_PK_UK id="911372ED-5748-6795-6528-14E7C1A4CCCF" name="Classroom_PK">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>DDA1604A-2C0C-F18B-5251-0A4AF0DE6952</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F717DFF1-B864-E8C6-E743-7686232B7824"/>
+<colUsage columnID="10BB1154-504E-0635-E68F-5EB02D63600F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="320E4387-DB51-35F9-5976-88417E68D156" name="Classroom_Building_FK">
+<ind_PK_UK id="040B9C6E-3FBD-172C-0DCC-30F8FDB1A769" name="Classroom_Building_FK">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>B3797F08-04F7-6E90-1A91-51557DD371F5</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="87C1571B-E56F-9AA0-C194-7B6DD24DE468"/>
+<colUsage columnID="5B900DF1-7C7C-931E-0E51-5365450491D1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82F06490-01A1-3A52-B0D4-59CB3AF4D95E" name="Schedule">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE23CADB-93A6-FE65-0631-DD5D728C234D" name="Schedule">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-07 01:19:38 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>E8B78478-57A2-1D4E-9B9D-AEFE581BAA25</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Schedule_ID" id="9697DAC4-6FAD-19EC-3487-1ADF7D204A96">
+<Column name="Schedule_ID" id="916E25FA-D294-8146-6E61-69DCAAE73F43">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-07 01:19:38 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>AF5AC004-F0BC-87FE-3DA1-2481FE4E16E5</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Student_Student_ID" id="F900EDD7-B931-F6A4-B42F-2FE609A886AE">
+<Column name="Student_Student_ID" id="32BBD91C-60A4-B7D9-3DF9-3C9A98EC1534">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-07 01:19:38 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>E39FB532-08AA-AEA0-962A-0337C7B0F644</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,11 +30,14 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="474FE513-6A57-F9C0-C47A-2FA0640743F8" referredColumn="C7B5966F-C89E-725F-50E3-7ADF62900640"/>
+</associations>
 </Column>
-<Column name="Course_Course_ID" id="D6B08402-D391-7020-5467-9FE865745D2B">
+<Column name="Class_Class_ID" id="6ED3C134-E5B3-1837-EA3A-D1B5600DA435">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-07 01:19:38 UTC</createdTime>
-<generatorID>A81B6C73-4636-FE29-D1A6-6B9610A2F465</generatorID>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>A81BB09C-EF65-B70E-2794-E5B993321B29</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,43 +46,54 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="22A302E0-FCC4-29F1-C4EE-A69280918FA5" referredColumn="B4E27004-0CC1-5F60-DCCA-7DE9C1B668E6"/>
+<colAssociation fkAssociation="ED23F0F4-BBB0-0693-5D3E-44FF73E382CE" referredColumn="2A2C53EE-3701-8C64-1065-CB1A5703C905"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3A95F255-64B8-7E7A-EFA4-10FE5A92FA75" name="Schedule_PK">
+<ind_PK_UK id="B7DA15BC-D03C-FD2A-3CD7-515F5167DD0E" name="Schedule_PK">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-07 01:19:38 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>A5DF053B-E62F-22CD-9C53-A941D0959BAF</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9697DAC4-6FAD-19EC-3487-1ADF7D204A96"/>
+<colUsage columnID="916E25FA-D294-8146-6E61-69DCAAE73F43"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D82B0381-B5F6-5BC5-AB4D-3776A93FD576" name="Schedule__IDX">
+<ind_PK_UK id="761E97B5-603A-AA41-60BE-73D16E331AEF" name="Schedule__IDX">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-07 01:19:38 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>0A37C666-786A-5241-FD41-B0C7085C92C6</relationGeneratorID>
 <indexColumnUsage>
-<colUsage columnID="F900EDD7-B931-F6A4-B42F-2FE609A886AE"/>
+<colUsage columnID="32BBD91C-60A4-B7D9-3DF9-3C9A98EC1534"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4EE2AD5C-A88E-5A92-9A11-2EBEC7186B4C" name="Schedule_Course_FK">
+<ind_PK_UK id="A3AC68F4-7BD9-9D79-4D6E-3F58172622FA" name="Schedule_Student_FK">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-04-07 01:19:38 UTC</createdTime>
-<generatorID>FDA2BDDC-14EB-29CE-A387-946EECC33F80</generatorID>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>0A37C666-786A-5241-FD41-B0C7085C92C6</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D6B08402-D391-7020-5467-9FE865745D2B"/>
+<colUsage columnID="32BBD91C-60A4-B7D9-3DF9-3C9A98EC1534"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D94625F-80EA-857D-5556-82142DE490CC" name="Schedule_Class_FK">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>BBF94ACA-C567-87D4-A116-50D104EB0D1F</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ED3C134-E5B3-1837-EA3A-D1B5600DA435"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

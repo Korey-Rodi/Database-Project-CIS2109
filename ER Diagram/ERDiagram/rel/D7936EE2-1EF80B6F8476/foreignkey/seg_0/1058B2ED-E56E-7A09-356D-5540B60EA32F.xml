@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1058B2ED-E56E-7A09-356D-5540B60EA32F" containerWithKeyObject="CA3014BF-ADD9-D6F6-F9F0-FB270627ADF6" localFKIndex="BD6F20EF-5CFA-7A7F-4CBB-EF08914523F0" name="Advisor_Faculty_FK">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>0407CF0F-7583-FEFB-BA48-F337B4BE4617</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<referredTableLongName>Faculty</referredTableLongName>
+<arc>CAD32C74-5776-801E-194D-D6AEE276C6B6</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57CB5248-7E25-D82F-6019-612CBFA441E3</referredTableID>
+<keyObject>BECD5E2B-6204-51E7-0EB4-FE9E3D4FB661</keyObject>
+<referredKeyID>BECD5E2B-6204-51E7-0EB4-FE9E3D4FB661</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Faculty_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Advisor</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AE2CDBD-17C9-6E6F-6A6A-BC0279F17F48" name="Faculty">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57CB5248-7E25-D82F-6019-612CBFA441E3" name="Faculty">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>299B7681-C954-0B66-BEE0-96059F9189FF</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Faculty_ID" id="D71D2B9F-9832-F84E-635C-229C2AAD7351">
+<Column name="Faculty_ID" id="A053C917-EDC3-8775-B330-10B2D1CA38D0">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>66E37464-4EC4-F0B2-1B4C-339B18168F72</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="First_Name" id="100E1074-F3FE-D543-DD22-AC7756DD616E">
+<Column name="First_Name" id="A3DB3EDE-F3FB-FDAF-81D2-0A63D9BF47DE">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>35B046CF-4A3A-BF78-1843-95C78EF03AB9</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Last_Name" id="271253BA-8106-017D-9437-66C3AADBE244">
+<Column name="Last_Name" id="83EA4B6A-0D22-0B55-552C-AACA1F94B020">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>29A45C87-20F6-67FC-470A-AE78511FD7AD</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -43,9 +43,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Email" id="9AC4C1C7-BF11-A926-1967-E6FFD1B5A6FB">
+<Column name="Email" id="7EB69C67-7513-B725-2939-A729070BDAB7">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>9F12A259-15C7-C369-2249-5F25A4DA4489</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -55,9 +55,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Phone" id="7399839E-B531-7C95-53AB-09BAADB55421">
+<Column name="Phone" id="31F3911C-A6EC-7130-F55C-10BE0ABE7E35">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>4A50391A-6E84-F2FC-A7E2-D8CBD91FD441</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -67,30 +67,36 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Role" id="648E0072-0042-8EA5-9183-4FBB25C415A0">
+<Column name="Role" id="A0793CA2-E4C2-5FA4-B731-E7571D2C8B17">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>E36C1009-BF55-4967-D2E5-DC5A2B90ED2C</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<constraintName>CH_INH_Faculty</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>7</dataTypeSize>
+<listOfValues>
+<valueDef value="Advisor" description="entity Advisor"/>
+<valueDef value="Teacher" description="entity Teacher"/>
+</listOfValues>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="31B54B5B-522F-187A-1E27-09AD377E944C" name="Faculty_PK">
+<ind_PK_UK id="BECD5E2B-6204-51E7-0EB4-FE9E3D4FB661" name="Faculty_PK">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
 <generatorID>821E89D7-8C79-9DC5-2F93-5DA1A69AE3A3</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D71D2B9F-9832-F84E-635C-229C2AAD7351"/>
+<colUsage columnID="A053C917-EDC3-8775-B330-10B2D1CA38D0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

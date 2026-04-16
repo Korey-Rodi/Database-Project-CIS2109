@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EF51FBC-513D-E0C5-A2AD-73BDA555554D" name="Attendance">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F3A8DD6-FFC5-D06A-A625-E787A2AEC497" name="Enrollment">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
-<generatorID>C9F4AF81-B461-AF84-D828-D88DFA857F2C</generatorID>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>8204B093-E4F6-5AA9-10B6-04AD23D6F553</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Attendance_ID" id="2D71BC1B-39D1-8247-0085-ECFC563B9DAC">
+<Column name="Enrollment_ID" id="7CCA6C8C-2E94-3194-21C4-35F3C5846E79">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
-<generatorID>84195212-806C-BDAB-E1B7-8FB67F87BCA1</generatorID>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>ABD177C3-5566-AF82-4A56-6254AE7D7F65</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,82 +19,82 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Date" id="52C5CEFF-5F13-5115-FF75-673DAFFCCED4">
+<Column name="Student_Student_ID" id="28B77076-9649-0810-3E09-E86979C465A5">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
-<generatorID>A2922298-F0E1-FC46-46BF-C318C7641061</generatorID>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>984C50B1-EE0D-5E2C-3504-318C42E8556C</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18691648-2A67-F3D4-6F95-C938EE4491F0" referredColumn="C7B5966F-C89E-725F-50E3-7ADF62900640"/>
+</associations>
+</Column>
+<Column name="Class_Class_ID" id="1EAB837F-45E3-A9D5-4834-8674446B43E5">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>47E11436-33A0-B2B6-1909-0D62750C8870</generatorID>
+<ownerDesignName>ERDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A1F0700-338A-9DA9-879A-942F09152C0A" referredColumn="2A2C53EE-3701-8C64-1065-CB1A5703C905"/>
+</associations>
+</Column>
+<Column name="Grade" id="4EA854AB-BBC4-2BDC-DBA7-37DC4B791D70">
+<createdBy>koreyrodi</createdBy>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>D329CADA-8792-F32A-F435-54F231AC8FE2</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Student_Student_ID" id="BF540E2C-8C9E-669E-BAAE-808D69AC2B45">
-<createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
-<generatorID>41794341-1D07-643D-E0DF-2BED3C5F3934</generatorID>
-<ownerDesignName>ERDiagram</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="CCD0FB43-2433-64E6-20FB-3CF1B94F78F5" referredColumn="F4D975DC-B641-1890-5187-CA6ABEDF4A70"/>
-</associations>
-</Column>
-<Column name="Class_Class_ID" id="ED2E9975-12C1-5B0E-5A20-18FCB4B182AF">
-<createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
-<generatorID>08ED0F15-AC62-C090-777F-69FE6BF95077</generatorID>
-<ownerDesignName>ERDiagram</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="DF3D1E59-D981-1FD3-5994-352E80638AA2" referredColumn="C21B1FCD-1E84-FB1D-E590-8F264E90E8FA"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8792AEA5-D0E1-BC44-DB15-4AD36F2FBE3D" name="Attendance_PK">
+<ind_PK_UK id="50735609-C511-E4CB-2EA9-2D5455BB72A8" name="Enrollment_PK">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
-<generatorID>04ABB24B-C0F9-73F8-11CF-654312439094</generatorID>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>6BB3805D-9E73-79DD-A4A4-0F92BED84EE1</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2D71BC1B-39D1-8247-0085-ECFC563B9DAC"/>
+<colUsage columnID="7CCA6C8C-2E94-3194-21C4-35F3C5846E79"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="477A5D30-53C8-C843-5B33-640F818ABF72" name="Attendance_Student_FK">
+<ind_PK_UK id="224D9E1A-2C88-A769-9A12-9C42D2826F54" name="Enrollment_Student_FK">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
-<generatorID>EC60FE8A-9AF6-8583-79F2-7852A5722DFD</generatorID>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>20F3E618-0763-D009-1878-C732B5541B14</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BF540E2C-8C9E-669E-BAAE-808D69AC2B45"/>
+<colUsage columnID="28B77076-9649-0810-3E09-E86979C465A5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A3DC4CBD-71FF-F317-D43B-C6A550907393" name="Attendance_Class_FK">
+<ind_PK_UK id="B5326076-C1BB-29C3-9493-1FDC18D9C73F" name="Enrollment_Class_FK">
 <createdBy>koreyrodi</createdBy>
-<createdTime>2026-03-30 00:12:46 UTC</createdTime>
-<generatorID>57CF5290-5CB1-A4C9-09EC-412C8280A3CC</generatorID>
+<createdTime>2026-04-10 19:33:53 UTC</createdTime>
+<generatorID>5B0199D5-198B-5160-9104-E8295B8A7CB9</generatorID>
 <ownerDesignName>ERDiagram</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="ED2E9975-12C1-5B0E-5A20-18FCB4B182AF"/>
+<colUsage columnID="1EAB837F-45E3-A9D5-4834-8674446B43E5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,6 @@
+student_id,first_name,last_name,date_of_birth,grade_level,Email,Phone,Advisor_faculty_id
+1,korey,rodi,3-13-2006,12,rodik@gmail.com,856780210,5
+2,Cassidy,Coomey,1-19-2006,11,cooneyC@yahoo.com,8672220987,6
+3,Colin,Burns,12-2-2005,10,burnsC@aol.com,3671234567,10
+4,Mitchell,Dalesio,1-17-2006,9,DalesioM@gmail.com,2678902130,10
+5,Sean,Gallagher,11-3-2007,9,GallagherS@gmail.com,8567894560,5

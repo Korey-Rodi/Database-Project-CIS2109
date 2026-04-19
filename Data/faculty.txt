@@ -1,0 +1,11 @@
+Faculty_id,First_Name,Last_Name,Email,Phone,Role
+1,Andrew,Rosen,rosenA@templeprep.edu,1111111111,Teacher
+2,John,Fiore,JohnF@templeprep.edu,2222222222,Teacher
+3,John,Smith,smithJ@templeprep.edu,3333333333,Teacher
+4,Mark,James,jamesM@templeprep.edu,4444444444,Teacher
+5,Janet,Smithers,smitherJ@templeprep.edu,5555555555,Advisor
+6,Ally,Jackson,jacksonA@templeprep.edu,6666666666,Advisor
+7,Michael,Brown,brownM@templeprep.edu,7777777777,Teacher
+8,Sarah,Wilson,wilsonS@templeprep.edu,8888888888,Teacher
+9,David,Clark,clarkD@templeprep.edu,9999999999,Teacher
+10,Emily,Davis,davisE@templeprep.edu,1010101010,Advisor

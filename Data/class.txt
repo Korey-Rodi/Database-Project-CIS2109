@@ -1,0 +1,11 @@
+class_id,Class_name,Capacity,start_time,end_time,Day_of_week,classroom_room_id,course_course_id,teacher_faculty_id
+101,Intro To Python,30,15:30,16:30,Monday,1,1,1
+102,Literature Help,15,16:45,17:45,Monday,2,2,2
+103,Science Help,25,15:30,16:30,Tuesday,3,3,3
+104,Intro to Pysch,17,16:45,17:45,Tuesday,4,4,4
+105,Intro to Bio,10,15:30,16:30,Wednesday,5,5,7
+106,Intro to Earth Sciences,15,16:45,17:45,Wednesday,6,6,8
+107,Intro to C++,35,15:30,16:30,Thursday,7,7,9
+108,Intro to Anatomoy,10,16:45,17:45,Thursday,8,8,1
+109,Intro to Chemistry,15,15:30,16:30,Friday,9,9,2
+110,Computer Help,10,16:45,17:45,Friday,10,10,3

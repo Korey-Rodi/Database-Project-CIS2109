@@ -1,0 +1,11 @@
+Course_Id,Course_Name
+1,Intro To Python
+2,Literature Help
+3,Science Help
+4,Intro to Pysch
+5,Intro to Bio
+6,Intro to Earth Sciences
+7,Intro to C++
+8,Intro to Anatomoy
+9,Intro to Chemistry
+10,Computer Help

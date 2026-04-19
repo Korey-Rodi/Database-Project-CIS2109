@@ -84,6 +84,22 @@ from teacher;
 select *
 from faculty inner join teacher on faculty.faculty_id = teacher.faculty_id;
 
-
+-- Show the advisors
 select *
-from faculty inner join teacher on faculty.faculty_id = teacher.faculty_id;
+from faculty inner join Advisor on faculty.faculty_id = advisor.faculty_id;
+
+-- Show students and their classes
+SELECT student_id,first_name, Last_name,schedule_id
+FROM student INNER JOIN schedule ON student.student_id = schedule.Student_student_id;
+
+-- Show student and thier classes and grades
+Select First_name, Last_name,Class_class_id, Grade
+from student inner join enrollment on student.student_id = enrollment.Student_student_id;
+
+-- Show rooms in a buildings
+select room_number as Room, Building_Name as Building
+from classroom inner join building on classroom.building_building_id = building.building_id;
+
+-- Show total number of courses offered
+select count(course_id) as Total_Courses
+from course;

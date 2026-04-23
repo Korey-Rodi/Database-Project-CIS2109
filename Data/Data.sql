@@ -43,6 +43,8 @@ Insert into schedule values(5,5,107);
 Insert into schedule values(6,1,110);
 Insert into schedule values(7,2,104);
 
+-- Attendance data entered via bulk insert
+
 -- Select * statements
 
 select *
@@ -89,7 +91,7 @@ select *
 from faculty inner join Advisor on faculty.faculty_id = advisor.faculty_id;
 
 -- Show students and their classes
-SELECT student_id,first_name, Last_name,schedule_id
+SELECT student_id,first_name, Last_name,schedule.class_class_id
 FROM student INNER JOIN schedule ON student.student_id = schedule.Student_student_id;
 
 -- Show student and thier classes and grades
@@ -103,3 +105,8 @@ from classroom inner join building on classroom.building_building_id = building.
 -- Show total number of courses offered
 select count(course_id) as Total_Courses
 from course;
+
+-- Show attendance per class
+Select First_Name, Last_Name,attendance_date,class_name
+from student inner join attendance on student.student_id = attendance.student_student_id
+inner join class on attendance.class_class_id = class.class_id;

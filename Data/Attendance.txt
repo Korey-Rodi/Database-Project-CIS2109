@@ -1,0 +1,6 @@
+attendance_id,attendance_date,Student_student_id,Class_Class_ID
+1,03-13-2026,1,101
+2,03-20-2026,1,101
+3,04-20-2026,2,104
+4,04-27-2026,2,104
+5,05-01-2026,3,108

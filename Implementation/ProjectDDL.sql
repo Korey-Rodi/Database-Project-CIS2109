@@ -14,7 +14,7 @@ CREATE TABLE attendance (
 ALTER TABLE attendance ADD CONSTRAINT attendance_pk PRIMARY KEY ( attendance_id );
 
 CREATE TABLE building (
-    building_id   INTEGER NOT NULL,
+    building_id   INTEGER NOT NULL,  
     building_name VARCHAR2(25) NOT NULL
 
 );

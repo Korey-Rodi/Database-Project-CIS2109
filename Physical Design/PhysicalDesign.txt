@@ -1,0 +1,15 @@
+Performance Bottlenecks and Frequent Usages:
+The attendance table will contain a lot of student records as the student population grows. Since it is recorded for each student, for each class and for each day it will grow rapidly. Since the attendance table is key to seeing if students are attending the program’s classes it will be queried often and without indexes and partitions that process could slow greatly.
+
+Enrollment and class will also see the same thing happen as many joins will be performed there to see things such as who is registered for a course, the grades and who is teaching the course, this was also identified as a potential bottleneck.
+
+Schedule was also identified for similar reasons as students may be registered for multiple classes and each schedule is stored in a single row; if the student body grows this table could also grow quickly.
+
+Indexes Proposal:
+Index created on schedule, attendance, and enrollment for the student_id
+Index created on schedule, attendance, enrollment for the class_id
+
+These indexes will improve performance on queries for these tables as they were identified as frequent usages and potential bottlenecks. Implementing these will ensure the efficiency of the data retrieval with joins since they are foreign keys and insertions, updates and deletes across the tables they are used.
+
+Partition Proposal:
+The attendance table is the table I have decided to partition since the data will grow rapidly and since the historical attendance data will also be stored it is important that the table is partitioned by date as the company continues to operate for years to come. It will be partitioned by the attendance_date column.

@@ -1,46 +1,47 @@
-CREATE USER clerk IDENTIFIED BY clerk123;
-CREATE USER manager IDENTIFIED BY manager123;
-CREATE USER developer IDENTIFIED BY dev123;
-
+CREATE USER clerk IDENTIFIED BY "02GsaG0FtmTCKbiiRJhT";
 GRANT CREATE SESSION TO clerk;
-GRANT CREATE SESSION TO manager;
-GRANT CREATE SESSION TO developer;
 
-GRANT SELECT ON Project.advisor TO clerk;
-GRANT SELECT ON Project.attendance TO clerk;
-GRANT SELECT ON Project.building TO clerk;
-GRANT SELECT ON Project.class TO clerk;
-GRANT SELECT ON Project.classroom TO clerk;
-GRANT SELECT ON Project.course TO clerk;
-GRANT SELECT ON Project.enrollment TO clerk;
-GRANT SELECT ON Project.faculty TO clerk;
-GRANT SELECT ON Project.schedule TO clerk;
-GRANT SELECT ON Project.student TO clerk;
-GRANT SELECT ON Project.teacher TO clerk;
+GRANT SELECT ON project.student TO clerk;
+GRANT SELECT ON project.faculty TO clerk;
+GRANT SELECT ON project.class TO clerk;
+GRANT SELECT ON project.enrollment TO clerk;
+GRANT SELECT ON project.attendance TO clerk;
+GRANT SELECT ON project.schedule TO clerk;
+GRANT SELECT ON project.course TO clerk;
+GRANT SELECT ON project.classroom TO clerk;
+GRANT SELECT ON project.building TO clerk;
+GRANT SELECT ON project.advisor TO clerk;
+GRANT SELECT ON project.teacher TO clerk;
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.advisor TO manager;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.attendance TO manager;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.building TO manager;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.class TO manager;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.classroom TO manager;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.course TO manager;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.enrollment TO manager;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.faculty TO manager;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.schedule TO manager;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.student TO manager;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.teacher TO manager;
+create user manager identified by n67na3hoo85jGJhqDkYV;
+grant create session to manager;
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.advisor TO developer;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.attendance TO developer;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.building TO developer;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.class TO developer;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.classroom TO developer;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.course TO developer;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.enrollment TO developer;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.faculty TO developer;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.schedule TO developer;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.student TO developer;
-GRANT SELECT, INSERT, UPDATE, DELETE ON Project.teacher TO developer;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.student TO manager;
+GRANT SELECT, INSERT, UPDATE, DELETE ON fproject.aculty TO manager;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.class TO manager;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.enrollment TO manager;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.attendance TO manager;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.schedule TO manager;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.course TO manager;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.classroom TO manager;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.building TO manager;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.advisor TO manager;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.teacher TO manager;
+
+create user developer identified by "7qjBiL23mD3qx0WGMhyF";
+grant create session to developer;
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.student TO developer;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.faculty TO developer;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.class TO developer;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.enrollment TO developer;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.attendance TO developer;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.schedule TO developer;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.course TO developer;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.classroom TO developer;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.building TO developer;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.advisor TO developer;
+GRANT SELECT, INSERT, UPDATE, DELETE ON project.teacher TO developer;
 
 GRANT CREATE TABLE TO developer;
 GRANT CREATE VIEW TO developer;
